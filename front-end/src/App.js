@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/nav/nav';
 import Home from './components/home/home';
 import About from './components/about/about';
 import Services from './components/services/services';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/Footer';
 
 
 
@@ -24,7 +25,7 @@ function App() {
 
             { /*<Route path="/show_blog/:id" element={<Show/>} /> 
             <Route path="/bloglist" element={<BlogList/>} />*/ }
-            
+
           </Routes>
         </Router>
         <Footer />
